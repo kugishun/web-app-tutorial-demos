@@ -1,0 +1,11 @@
+{
+  "name": "web-app-tutorial-demos",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:vanilla": "pnpm --filter javascript-browser-app-demo dev",
+    "dev:react": "pnpm --filter react-browser-app-demo dev",
+    "build": "pnpm --recursive --if-present build"
+  }
+}
+
