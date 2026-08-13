@@ -5,7 +5,7 @@
   "scripts": {
     "dev:vanilla": "pnpm --filter javascript-browser-app-demo dev",
     "dev:react": "pnpm --filter react-browser-app-demo dev",
+    "dev:next": "pnpm --filter next-browser-app-demo dev",
     "build": "pnpm --recursive --if-present build"
   }
 }
-
